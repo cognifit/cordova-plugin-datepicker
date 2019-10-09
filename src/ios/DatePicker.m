@@ -46,6 +46,9 @@
   [self updateDatePicker:options];
   [self updateCancelButton:options];
   [self updateDoneButton:options];
+  if (@available(iOS 13.0, *)) {
+    self.datePickerContainer.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
+  }
   
   UIInterfaceOrientation deviceOrientation = [UIApplication sharedApplication].statusBarOrientation;
   
