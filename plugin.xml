@@ -5,9 +5,12 @@
     id="cordova-plugin-datepicker"
     version="0.9.2">
 
-    <name>DatePicker</name>
+    <name>CogniFit's fork of cordova-plugin-datepicker</name>
 
-    <description>Cordova/PhoneGap DatePicker Plugin for iOS, Android and Windows Phone</description>
+    <description>
+    	Cordova/PhoneGap DatePicker Plugin for iOS, Android and Windows Phone
+    	See original project at: https://github.com/VitaliiBlagodir/cordova-plugin-datepicker
+    </description>
 
     <license>MIT</license>
 

@@ -1,7 +1,7 @@
 {
-  "name": "cordova-plugin-datepicker",
+  "name": "@cognifit/cordova-plugin-datepicker",
   "version": "0.9.2",
-  "description": "Cordova DatePicker Plugin",
+  "description": "CogniFit's fork of cordova-plugin-datepicker\nCordova DatePicker Plugin",
   "cordova": {
     "id": "cordova-plugin-datepicker",
     "platforms": [
