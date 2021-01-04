@@ -51,7 +51,7 @@
                                 </barButtonItem>
                             </items>
                         </toolbar>
-                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="SUg-U1-bKY">
+                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="SUg-U1-bKY">
                             <rect key="frame" x="0.0" y="44" width="375" height="216"/>
                             <date key="date" timeIntervalSinceReferenceDate="408285701.96363503">
                                 <!--2013-12-09 12:41:41 +0000-->
