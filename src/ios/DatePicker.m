@@ -47,7 +47,17 @@
   [self updateCancelButton:options];
   [self updateDoneButton:options];
   if (@available(iOS 13.0, *)) {
-    self.datePickerContainer.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
+      if ([[options objectForKey:@"theme"] isEqualToString:@"dark"]) {
+          self.viewController.overrideUserInterfaceStyle = UIUserInterfaceStyleDark;
+          self.datePicker.backgroundColor = UIColor.blackColor;
+          self.datePickerComponentsContainer.backgroundColor = self.datePicker.backgroundColor;
+          [self.datePicker setValue:[UIColor whiteColor] forKey:@"textColor"];
+      } else {
+          self.viewController.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
+          self.datePicker.backgroundColor = UIColor.whiteColor;
+          self.datePickerComponentsContainer.backgroundColor = self.datePicker.backgroundColor;
+          [self.datePicker setValue:[UIColor blackColor] forKey:@"textColor"];
+      }
   }
   
   UIInterfaceOrientation deviceOrientation = [UIApplication sharedApplication].statusBarOrientation;
