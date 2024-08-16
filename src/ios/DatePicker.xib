@@ -43,7 +43,7 @@
                             </constraints>
                             <items>
                                 <barButtonItem style="plain" systemItem="flexibleSpace" id="qSl-jf-iD9"/>
-                                <barButtonItem systemItem="done" id="NxV-td-foA">
+                                <barButtonItem title="Done" id="NxV-td-foA">
                                     <connections>
                                         <action selector="doneAction:" destination="-1" id="32P-Ny-o7G"/>
                                     </connections>
