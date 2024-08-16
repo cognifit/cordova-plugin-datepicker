@@ -13,7 +13,7 @@
                 <outlet property="datePicker" destination="SUg-U1-bKY" id="aaa-Vr-qUb"/>
                 <outlet property="datePickerComponentsContainer" destination="b2J-jW-BgT" id="jYk-bM-1Mz"/>
                 <outlet property="datePickerContainer" destination="1" id="tz5-zN-epC"/>
-                <outlet property="doneButton" destination="31H-9t-9Yf" id="JVR-mR-cIC"/>
+                <outlet property="doneButton" destination="NxV-td-foA" id="k7E-bu-vBG"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
