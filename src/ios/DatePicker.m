@@ -20,7 +20,7 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *datePickerComponentsContainerVSpace;
 @property (nonatomic) IBOutlet UIView* datePickerComponentsContainer;
 @property (nonatomic) IBOutlet UIButton *cancelButton;
-@property (nonatomic) IBOutlet UIButton *doneButton;
+@property (nonatomic) IBOutlet UIBarButtonItem *doneButton;
 @property (nonatomic) IBOutlet UIDatePicker *datePicker;
 
 @end
@@ -235,7 +235,7 @@
 - (void)updateDoneButton:(NSMutableDictionary *)options {
   
   NSString *label = [options objectForKey:@"doneButtonLabel"];
-  [self.doneButton setTitle:label forState:UIControlStateNormal];
+  [self.doneButton setTitle:label];
   
   NSString *tintColorHex = [options objectForKey:@"doneButtonColor"];
   [self.doneButton setTintColor: [self colorFromHexString: tintColorHex]];
