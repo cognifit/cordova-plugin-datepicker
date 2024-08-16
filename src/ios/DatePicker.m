@@ -192,7 +192,9 @@
   
   if ([mode isEqualToString:@"date"]) {
     self.datePicker.datePickerMode = UIDatePickerModeDate;
-    self.datePicker.preferredDatePickerStyle = UIDatePickerStyleWheels;
+    if (@available(iOS 13.4, *)) {
+      self.datePicker.preferredDatePickerStyle = UIDatePickerStyleWheels;
+    }
   }
   else if ([mode isEqualToString:@"time"]) {
     self.datePicker.datePickerMode = UIDatePickerModeTime;
